@@ -66,4 +66,4 @@ else:
   gp3 = 0.0
 print(f"Grade point for course 3 is: {gp3}")
 gpa = (gp1 * c1 + gp2 * c2 + gp3 * c3) / (c1 + c2 + c3)
-print(f"Your GPA is {gpa}")
+print(f"Your GPA is: {gpa}")
