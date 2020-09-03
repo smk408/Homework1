@@ -23,7 +23,6 @@ else:
   gp1 = 0.0
 
 print(f"Grade point for course 1 is: {gp1}")
-
 gp = input("Enter your course 2 letter grade: ")
 c2 = input("Enter your course 2 credit: ")
 c2 = float(c2)
