@@ -22,7 +22,7 @@ elif gp == "D":
 else: 
   gp1 = 0.0
 
-print(f"Grade point for course 1 is: {gp1}\n")
+print(f"Grade point for course 1 is: {gp1}")
 
 gp = input("Enter your course 2 letter grade: ")
 c2 = input("Enter your course 2 credit: ")
@@ -47,7 +47,7 @@ elif gp == "D":
 else: 
   gp2 = 0.0
 
-print(f"Grade point for course 2 is: {gp2}\n")
+print(f"Grade point for course 2 is: {gp2}")
 
 gp = input("Enter your course 3 letter grade: ")
 c3 = input("Enter your course 3 credit: ")
@@ -72,8 +72,8 @@ elif gp == "D":
 else: 
   gp3 = 0.0
 
-print(f"Grade point for course 3 is: {gp3}\n")
+print(f"Grade point for course 3 is: {gp3}")
 
 gpa = (gp1 * c1 + gp2 * c2 + gp3 * c3) / (c1 + c2 + c3)
 
-print(f"Your GPA is {gpa}\n")
+print(f"Your GPA is {gpa}")
